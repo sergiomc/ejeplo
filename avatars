@@ -1,0 +1,10 @@
+<div class="avatargz">
+<if test="!empty($author['field_15']) and !empty($author['field_21']) and $author['field_21'] != 'u'">
+<a class='url' href="http://gamezconnect.com/{$author['field_15']}/?sp=gamezer&game=billiards" target="_blank" onclick="clicksound.playclip()" >
+<img src="/public/images/avatars/{$author['field_21']}.jpg">
+</a>
+<else />
+       <a class='url' href="http://gamezconnect.com/{$author['field_15']}/?sp=gamezer&game=billiards" target="_blank" onclick="clicksound.playclip()" >
+<img src="/public/images/avatars/default.jpg">
+</if>
+</div>
